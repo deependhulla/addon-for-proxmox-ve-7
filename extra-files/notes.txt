@@ -1,0 +1,4 @@
+
+
+## to remove lvm 
+https://www.thegeekdiary.com/centos-rhel-how-to-delete-a-volume-group-in-lvm/
