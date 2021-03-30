@@ -68,5 +68,6 @@ echo "alias ls='ls --color=auto'" >> /etc/bash.bashrc
 echo "alias mv='mv -i'" >> /etc/bash.bashrc
 echo "alias rm='rm -i'" >> /etc/bash.bashrc
 
-
+## for crontab 
+export EDITOR=vim
 
