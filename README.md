@@ -25,8 +25,11 @@ updated via 02-update-bash-tools.sh For better console performance
 - Perl Cpan auto-commit for cpan use.
 - SSH keeplive update to avoid quick disconnection
 
+## Update repo with non-free ..so that package like intel and amd nofree can be install 
+- install all non-free repo update
+
 ## locales setup to en_US.UTF-8
-updated via 04-set-locales.sh in case you want en_US.UTF-8
+updated via 05-set-locales.sh in case you want en_US.UTF-8
 - LC_TYPE
 - LC_LANG
 - LC_ALL
