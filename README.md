@@ -34,5 +34,8 @@ updated via 05-set-locales.sh in case you want en_US.UTF-8
 - LC_LANG
 - LC_ALL
 
+## Install only if no Support-Subscription is used from Proxmox
+- 05-proxmox-opensource-repo-no-subscription for keeping up-to-date open-code
+
 
 
