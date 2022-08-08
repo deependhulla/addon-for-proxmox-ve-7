@@ -18,6 +18,12 @@ apt-get -y install sendemail
 #apt-get install debconf-utils pwgen iftop htop multitail lm-sensors
 #apt-get install vnstat vnstati
 
+##for SDN Network
+apt install libpve-network-perl ifupdown2 frr frr-pythontools
+echo "" >> /etc/network/interfaces
+echo "source /etc/network/interfaces.d/*" >> /etc/network/interfaces
+
+
 ## only if planned for cloud-init pve
 ##apt-get install cloud-init
 
