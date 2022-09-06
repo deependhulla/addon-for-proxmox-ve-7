@@ -28,14 +28,15 @@ updated via 02-update-bash-tools.sh For better console performance
 ## Update repo with non-free ..so that package like intel and amd nofree can be install 
 - install all non-free repo update
 
-## locales setup to en_US.UTF-8
-updated via 05-set-locales.sh in case you want en_US.UTF-8
+##optional -  locales setup to en_US.UTF-8
+updated via extra-files/extra-set-locales.sh in case you want en_US.UTF-8
 - LC_TYPE
 - LC_LANG
 - LC_ALL
 
 ## Install only if no Support-Subscription is used from Proxmox
-- 05-proxmox-opensource-repo-no-subscription for keeping up-to-date open-code
+- extra-files/extra-for-development-proxmox-opensource-repo-no-subscription.sh 
+ for keeping up-to-date open-code for development
 
 
 
