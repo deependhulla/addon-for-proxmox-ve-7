@@ -13,16 +13,16 @@ apt-get -y install php-cli
 #command line sendemail tool using command line in script
 apt-get -y install sendemail
 
-### other Package if needed
-#apt-get install liblocale-po-perl  libpve-network-perl ifupdown2 openvswitch-switch apt-transport-https
-#apt-get install debconf-utils pwgen iftop htop multitail lm-sensors
+### other Package openvswitch various-top
+apt-get -y install liblocale-po-perl  libpve-network-perl ifupdown2 openvswitch-switch apt-transport-https
+apt-get -y install debconf-utils pwgen iftop htop multitail lm-sensors
 
 ## For Network Data-Traffic Recorder 
-#apt-get install vnstat vnstati
+apt-get -y install vnstat vnstati
 
 ##for SDN Network
 ## The Software Defined Network (SDN) feature allows you to create virtual networks (VNets) at the datacenter level.
-apt install libpve-network-perl ifupdown2 frr frr-pythontools
+apt-get -y install libpve-network-perl ifupdown2 frr frr-pythontools
 echo "" >> /etc/network/interfaces
 echo "source /etc/network/interfaces.d/*" >> /etc/network/interfaces
 
