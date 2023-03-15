@@ -41,4 +41,6 @@ echo "source /etc/network/interfaces.d/*" >> /etc/network/interfaces
 ## only if planned for cloud-init pve
 ##apt-get install cloud-init
 
+## keep ceph default package installed
+echo 'Y' | pveceph install
 
