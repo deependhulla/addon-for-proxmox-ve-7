@@ -26,6 +26,13 @@ apt-get -y install libpve-network-perl ifupdown2 frr frr-pythontools
 echo "" >> /etc/network/interfaces
 echo "source /etc/network/interfaces.d/*" >> /etc/network/interfaces
 
+# for wireguard vpn
+#apt-get -y wireguard  wireguard-tools curl qrencode iptables jq bsdmainutils sudo
+
+# ensure ipv4 forwarding is enabled
+#sed -i 's/#* *net.ipv4.ip_forward=.*/net.ipv4.ip_forward=1/g' /etc/sysctl.conf
+
+
 ## VXLAN IPSEC Encryption
 ## If you need to add encryption on top of a VXLAN, it’s possible to do so with IPSEC, through strongswan.
 ## You’ll need to reduce the MTU by 60 bytes (IPv4) or 80 bytes (IPv6) to handle encryption.
