@@ -29,6 +29,12 @@ echo "source /etc/network/interfaces.d/*" >> /etc/network/interfaces
 # for wireguard vpn
 #apt-get -y wireguard  wireguard-tools curl qrencode iptables jq bsdmainutils sudo
 
+## wriguard kernel modelu if not on VM
+#wireguard-dkms linux-headers-$(uname -r)
+
+## DNS resolv for WireGuard Client
+##openresolv
+
 # ensure ipv4 forwarding is enabled
 #sed -i 's/#* *net.ipv4.ip_forward=.*/net.ipv4.ip_forward=1/g' /etc/sysctl.conf
 
