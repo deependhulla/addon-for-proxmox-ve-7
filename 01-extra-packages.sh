@@ -35,6 +35,10 @@ echo "source /etc/network/interfaces.d/*" >> /etc/network/interfaces
 ## DNS resolv for WireGuard Client
 ##openresolv
 
+
+## wireguard guide
+##https://www.linuxbabe.com/debian/wireguard-vpn-server-debian
+
 # ensure ipv4 forwarding is enabled
 #sed -i 's/#* *net.ipv4.ip_forward=.*/net.ipv4.ip_forward=1/g' /etc/sysctl.conf
 
