@@ -5,7 +5,7 @@ apt-get -y upgrade
 apt-get -y dist-upgrade
 
 ## basic extra package for troubleshooting and data copy and mangement
-apt-get -y install git mc iptraf screen vim ethtool net-tools  wget elinks dos2unix dnsutils telnet ipmitool
+apt-get -y install git mc iptraf screen vim ethtool net-tools  wget elinks dos2unix arping dnsutils telnet ipmitool
 
 ## php only cli tool for fast and easy scrpting and management scripts
 apt-get -y install php-cli
