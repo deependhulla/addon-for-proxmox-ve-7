@@ -1,4 +1,4 @@
-# addon-for-proxmox-ve
+# addon-for-proxmox-ve-7
 Addon For Proxmox VE for extra management and quicker operation
 
 ## Extra Packages 
